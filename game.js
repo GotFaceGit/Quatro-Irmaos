@@ -56,365 +56,361 @@ const theQuatro = [
     
 
 const irmCon = () => {
-    if (gridCircles[0].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
+    if (gridCircles[40].innerText === nowPlaying && gridCircles[32].innerText ===
+        nowPlaying && gridCircles[24].innerText === nowPlaying && gridCircles[16].innerText ===
         nowPlaying)  {
         finito = true
         document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
+    } else if (gridCircles[40].innerText === nowPlaying && gridCircles[41].innerText ===
+        nowPlaying && gridCircles[42].innerText === nowPlaying && gridCircles[43].innerText ===
         nowPlaying ) {  
         finito = true
         document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
+    } else if (gridCircles[40].innerText === nowPlaying && gridCircles[33].innerText ===
+        nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying ) {
         finito = true
         document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[3].innerText ===
+    } else if (gridCircles[41].innerText === nowPlaying && gridCircles[33].innerText ===
+        nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[17].innerText ===
         nowPlaying ) {
         finito = true
         document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[5].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
+    } else if (gridCircles[41].innerText === nowPlaying && gridCircles[42].innerText ===
+        nowPlaying && gridCircles[43].innerText === nowPlaying && gridCircles[44].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[41].innerText === nowPlaying && gridCircles[34].innerText ===
+        nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[42].innerText === nowPlaying && gridCircles[34].innerText ===
+        nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[18].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[42].innerText === nowPlaying && gridCircles[35].innerText ===
+        nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[21].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[42].innerText === nowPlaying && gridCircles[43].innerText ===
+        nowPlaying && gridCircles[44].innerText === nowPlaying && gridCircles[45].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[43].innerText === nowPlaying && gridCircles[35].innerText ===
+        nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[19].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[43].innerText === nowPlaying && gridCircles[36].innerText ===
+        nowPlaying && gridCircles[29].innerText === nowPlaying && gridCircles[22].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[43].innerText === nowPlaying && gridCircles[44].innerText ===
+        nowPlaying && gridCircles[45].innerText === nowPlaying && gridCircles[46].innerText ===
+        nowPlaying ) {  
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[44].innerText === nowPlaying && gridCircles[36].innerText ===
+        nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[46].innerText === nowPlaying && gridCircles[38].innerText ===
+        nowPlaying && gridCircles[30].innerText === nowPlaying && gridCircles[22].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[46].innerText === nowPlaying && gridCircles[37].innerText ===
+        nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[19].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[45].innerText === nowPlaying && gridCircles[37].innerText ===
+        nowPlaying && gridCircles[29].innerText === nowPlaying && gridCircles[21].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[45].innerText === nowPlaying && gridCircles[36].innerText ===
+        nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[18].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[44].innerText === nowPlaying && gridCircles[35].innerText ===
+        nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[17].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[43].innerText === nowPlaying && gridCircles[34].innerText ===
+        nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[16].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[32].innerText === nowPlaying && gridCircles[24].innerText ===
+        nowPlaying && gridCircles[16].innerText === nowPlaying && gridCircles[8].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[32].innerText === nowPlaying && gridCircles[25].innerText ===
+        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[11].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[32].innerText === nowPlaying && gridCircles[33].innerText ===
+        nowPlaying && gridCircles[34].innerText === nowPlaying && gridCircles[35].innerText ===
+        nowPlaying ) {  
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[33].innerText === nowPlaying && gridCircles[25].innerText ===
+        nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[9].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[33].innerText === nowPlaying && gridCircles[26].innerText ===
+        nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[12].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[33].innerText === nowPlaying && gridCircles[34].innerText ===
+        nowPlaying && gridCircles[35].innerText === nowPlaying && gridCircles[36].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[34].innerText === nowPlaying && gridCircles[26].innerText ===
+        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[10].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[34].innerText === nowPlaying && gridCircles[27].innerText ===
+        nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[13].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[34].innerText === nowPlaying && gridCircles[35].innerText ===
+        nowPlaying && gridCircles[36].innerText === nowPlaying && gridCircles[37].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[35].innerText === nowPlaying && gridCircles[27].innerText ===
+        nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[11].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[35].innerText === nowPlaying && gridCircles[28].innerText ===
+        nowPlaying && gridCircles[21].innerText === nowPlaying && gridCircles[14].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[35].innerText === nowPlaying && gridCircles[36].innerText ===
+        nowPlaying && gridCircles[37].innerText === nowPlaying && gridCircles[38].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[36].innerText === nowPlaying && gridCircles[28].innerText ===
+        nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[12].innerText ===
+        nowPlaying ) {  
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[38].innerText === nowPlaying && gridCircles[30].innerText ===
+        nowPlaying && gridCircles[22].innerText === nowPlaying && gridCircles[14].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[38].innerText === nowPlaying && gridCircles[29].innerText ===
+        nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[11].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[37].innerText === nowPlaying && gridCircles[29].innerText ===
+        nowPlaying && gridCircles[21].innerText === nowPlaying && gridCircles[13].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[37].innerText === nowPlaying && gridCircles[28].innerText ===
+        nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[10].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[36].innerText === nowPlaying && gridCircles[27].innerText ===
+        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[9].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[35].innerText === nowPlaying && gridCircles[26].innerText ===
+        nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[8].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[24].innerText === nowPlaying && gridCircles[16].innerText ===
+        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[0].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[24].innerText === nowPlaying && gridCircles[17].innerText ===
+        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[3].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[24].innerText === nowPlaying && gridCircles[25].innerText ===
+        nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[27].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[25].innerText === nowPlaying && gridCircles[17].innerText ===
+        nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[1].innerText ===
+        nowPlaying ) {  
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[25].innerText === nowPlaying && gridCircles[18].innerText ===
+        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[4].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[25].innerText === nowPlaying && gridCircles[26].innerText ===
+        nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[28].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[26].innerText === nowPlaying && gridCircles[18].innerText ===
+        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[2].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[26].innerText === nowPlaying && gridCircles[19].innerText ===
+        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[5].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[26].innerText === nowPlaying && gridCircles[27].innerText ===
+        nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[29].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[27].innerText === nowPlaying && gridCircles[19].innerText ===
+        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[3].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[27].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying && gridCircles[13].innerText === nowPlaying && gridCircles[6].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[27].innerText === nowPlaying && gridCircles[28].innerText ===
+        nowPlaying && gridCircles[29].innerText === nowPlaying && gridCircles[30].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[28].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[4].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[30].innerText === nowPlaying && gridCircles[22].innerText ===
+        nowPlaying && gridCircles[14].innerText === nowPlaying && gridCircles[16].innerText ===
+        nowPlaying ) {  
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[30].innerText === nowPlaying && gridCircles[21].innerText ===
+        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[3].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[29].innerText === nowPlaying && gridCircles[21].innerText ===
+        nowPlaying && gridCircles[13].innerText === nowPlaying && gridCircles[5].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[29].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[2].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[28].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[4].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[28].innerText === nowPlaying && gridCircles[19].innerText ===
+        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[1].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[27].innerText === nowPlaying && gridCircles[18].innerText ===
+        nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[0].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[16].innerText === nowPlaying && gridCircles[17].innerText ===
+        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[19].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[17].innerText === nowPlaying && gridCircles[18].innerText ===
+        nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
+        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[18].innerText === nowPlaying && gridCircles[19].innerText ===
+        nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[21].innerText ===
+        nowPlaying ) {  
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[19].innerText === nowPlaying && gridCircles[20].innerText ===
+        nowPlaying && gridCircles[21].innerText === nowPlaying && gridCircles[22].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[8].innerText === nowPlaying && gridCircles[9].innerText ===
+        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[11].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[9].innerText === nowPlaying && gridCircles[10].innerText ===
+        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[12].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[10].innerText === nowPlaying && gridCircles[11].innerText ===
+        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[13].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[11].innerText === nowPlaying && gridCircles[12].innerText ===
+        nowPlaying && gridCircles[13].innerText === nowPlaying && gridCircles[14].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
+        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[2].innerText ===
+        nowPlaying && gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
+        nowPlaying ) {
+        finito = true
+        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
+        nowPlaying && gridCircles[4].innerText === nowPlaying && gridCircles[5].innerText ===
         nowPlaying ) {
         finito = true
         document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
     } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
+        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[6].innerText ===
+        nowPlaying) {
         finito = true
         document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[6].innerText === nowPlaying && gridCircles[7].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[5].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[6].innerText === nowPlaying && gridCircles[7].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[5].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[6].innerText === nowPlaying && gridCircles[7].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[5].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[6].innerText === nowPlaying && gridCircles[7].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[5].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[6].innerText === nowPlaying && gridCircles[7].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[5].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[6].innerText === nowPlaying && gridCircles[7].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[5].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[6].innerText === nowPlaying && gridCircles[7].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
-
-
-
-
     } else {
         let X = 0
         let O = 0

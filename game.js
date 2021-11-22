@@ -418,7 +418,7 @@ const irmCon = () => {
   }
 
   const startOver = document.querySelector(".resetBtn").addEventListener("click", () => {
-    finito = false
+    finalizado = false
     const gridCircles = document.querySelectorAll(".circles");
         for(let i = 0; i < gridCircles.length; i++) {
             gridCircles[i].innerText = ""

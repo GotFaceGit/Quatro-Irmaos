@@ -14,7 +14,7 @@ body {
     line-height: 50px;
     font-size: 70px;
     text-align: center ;
-    text-shadow: rgb(96, 21, 54) 1px 1px 1px;
+    text-shadow: rgb(96, 21, 54) 3px 1px 1px;
 }
 
 .haveFun {
@@ -22,7 +22,7 @@ body {
     line-height: 50px;
     font-size: 75px;
     text-align: center ;
-    text-shadow: rgb(72, 24, 218) 1px 1px 1px;
+    text-shadow: rgb(72, 24, 218) 3px 1px 1px;
 
 }
 
@@ -34,9 +34,11 @@ body {
     width: 175px;
     height: 50px;
     font-size: 20px;
+    color: rgb(220, 131, 22);
     background-color: rgb(212, 209, 240);
     letter-spacing: 2px;
     border-radius: 10px;
+    box-shadow:  rgb(115, 75, 235) 3px 1px 3px;
 }
 
 

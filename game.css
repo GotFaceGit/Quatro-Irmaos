@@ -1,6 +1,45 @@
+.homeBody {
+    background-color: rgb(235, 233, 205);
+   padding: 50px
+}
+
 
 body {
     background-color: rgb(235, 233, 205);
+}
+
+.homePgTitle {
+    margin-top: 100px;
+    color: rgb(220, 131, 22);
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center ;
+    text-shadow: rgb(96, 21, 54) 1px 1px 1px;
+}
+
+.haveFun {
+    color: rgb(220, 131, 22);
+    line-height: 50px;
+    font-size: 75px;
+    text-align: center ;
+    text-shadow: rgb(72, 24, 218) 1px 1px 1px;
+
+}
+
+.toGamePage {
+    text-align: center;
+}
+
+
+
+.instructs {
+    text-align: center;
+    /* width: 200px; */
+    color: rgb(220, 131, 22);
+    text-align: center;
+    
+    /* margin-left: 575px; */
+    padding: 50px;
 }
 
 .pgTitle {
@@ -9,13 +48,6 @@ body {
     font-size: 30px;
     text-align: center ;
     text-shadow: rgb(96, 21, 54) 1px 1px 1px;
-}
-
-.instructs {
-    color: rgb(220, 131, 22);
-    text-align: center;
-    text-shadow: rgb(72, 24, 218) 1px 0 1px;
-    padding-bottom: 50px;
 }
 
 .gridContainer {        /*This holds the playGrid*/

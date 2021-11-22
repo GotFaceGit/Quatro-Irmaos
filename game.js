@@ -15,8 +15,9 @@ let nowPlaying = 'Red'
 let finalizado = false
 
 // Who is playing. These don't play although they switch turns
-let playerRed = document.querySelector('.redPlayer')
-let playerGreen = document.querySelector('.grnPlayer')
+// let playerRed = document.querySelector('.redPlayer')
+// let playerGreen = document.querySelector('.grnPlayer')
+
 const startOver = document.querySelector('.resetBtn')
 
 
@@ -436,14 +437,14 @@ gridCircles.forEach(slot => {
             console.log('reds turn')
             gridCircles[circZero].style.background = 'red'
             document.querySelector('.playingNow').innerText = 'Your go Green'
-            // irmCon()
+            irmCon()
             nowPlaying = 'Green'
         }  else if (nowPlaying === 'Green' &&
             gridCircles[circZero].innerText!== 'Red' && !finalizado) {
             console.log('greens turn')    
             gridCircles[circZero].style.background = 'green'
             document.querySelector('.playingNow').innerText = 'Your go Red'
-            // irmCon()
+            irmCon()
             nowPlaying = 'Red'
         } 
     });

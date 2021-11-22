@@ -2,16 +2,16 @@
 
 // let gridColumns = document.querySelectorAll('.columns')
 let gridCircles = document.querySelectorAll('.circles')
-let phantoms = document.querySelectorAll('.taken')
+// let phantoms = document.querySelectorAll('.taken')
 
 
 // let redSlugs = document. querySelector('.redCoins')
 // let greenSlugs = document.querySelector('.greenCoins')
-let greenPile = document.querySelector('.greenCache')
-let redPile = document.querySelector('.redCache')
+// let greenPile = document.querySelector('.greenCache')
+// let redPile = document.querySelector('.redCache')
 
 // Player toggler switcher
-let nowPlaying = red
+let nowPlaying = 'Red'
 let finalizado = false
 
 // Who is playing. These don't play although they switch turns
@@ -59,375 +59,411 @@ const irmCon = () => {
     if (gridCircles[40].innerText === nowPlaying && gridCircles[32].innerText ===
         nowPlaying && gridCircles[24].innerText === nowPlaying && gridCircles[16].innerText ===
         nowPlaying)  {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[40].innerText === nowPlaying && gridCircles[41].innerText ===
         nowPlaying && gridCircles[42].innerText === nowPlaying && gridCircles[43].innerText ===
         nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[40].innerText === nowPlaying && gridCircles[33].innerText ===
         nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[41].innerText === nowPlaying && gridCircles[33].innerText ===
         nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[17].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[41].innerText === nowPlaying && gridCircles[42].innerText ===
         nowPlaying && gridCircles[43].innerText === nowPlaying && gridCircles[44].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[41].innerText === nowPlaying && gridCircles[34].innerText ===
         nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[42].innerText === nowPlaying && gridCircles[34].innerText ===
         nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[18].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[42].innerText === nowPlaying && gridCircles[35].innerText ===
         nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[21].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[42].innerText === nowPlaying && gridCircles[43].innerText ===
         nowPlaying && gridCircles[44].innerText === nowPlaying && gridCircles[45].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[43].innerText === nowPlaying && gridCircles[35].innerText ===
         nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[43].innerText === nowPlaying && gridCircles[36].innerText ===
         nowPlaying && gridCircles[29].innerText === nowPlaying && gridCircles[22].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[43].innerText === nowPlaying && gridCircles[44].innerText ===
         nowPlaying && gridCircles[45].innerText === nowPlaying && gridCircles[46].innerText ===
         nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[44].innerText === nowPlaying && gridCircles[36].innerText ===
         nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[46].innerText === nowPlaying && gridCircles[38].innerText ===
         nowPlaying && gridCircles[30].innerText === nowPlaying && gridCircles[22].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[46].innerText === nowPlaying && gridCircles[37].innerText ===
         nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[45].innerText === nowPlaying && gridCircles[37].innerText ===
         nowPlaying && gridCircles[29].innerText === nowPlaying && gridCircles[21].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[45].innerText === nowPlaying && gridCircles[36].innerText ===
         nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[18].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[44].innerText === nowPlaying && gridCircles[35].innerText ===
         nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[17].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[43].innerText === nowPlaying && gridCircles[34].innerText ===
         nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[16].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[32].innerText === nowPlaying && gridCircles[24].innerText ===
         nowPlaying && gridCircles[16].innerText === nowPlaying && gridCircles[8].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[32].innerText === nowPlaying && gridCircles[25].innerText ===
         nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[11].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[32].innerText === nowPlaying && gridCircles[33].innerText ===
         nowPlaying && gridCircles[34].innerText === nowPlaying && gridCircles[35].innerText ===
         nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[33].innerText === nowPlaying && gridCircles[25].innerText ===
         nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[9].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[33].innerText === nowPlaying && gridCircles[26].innerText ===
         nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[12].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[33].innerText === nowPlaying && gridCircles[34].innerText ===
         nowPlaying && gridCircles[35].innerText === nowPlaying && gridCircles[36].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[34].innerText === nowPlaying && gridCircles[26].innerText ===
         nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[10].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[34].innerText === nowPlaying && gridCircles[27].innerText ===
         nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[13].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[34].innerText === nowPlaying && gridCircles[35].innerText ===
         nowPlaying && gridCircles[36].innerText === nowPlaying && gridCircles[37].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[35].innerText === nowPlaying && gridCircles[27].innerText ===
         nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[11].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[35].innerText === nowPlaying && gridCircles[28].innerText ===
         nowPlaying && gridCircles[21].innerText === nowPlaying && gridCircles[14].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[35].innerText === nowPlaying && gridCircles[36].innerText ===
         nowPlaying && gridCircles[37].innerText === nowPlaying && gridCircles[38].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[36].innerText === nowPlaying && gridCircles[28].innerText ===
         nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[12].innerText ===
         nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[38].innerText === nowPlaying && gridCircles[30].innerText ===
         nowPlaying && gridCircles[22].innerText === nowPlaying && gridCircles[14].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[38].innerText === nowPlaying && gridCircles[29].innerText ===
         nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[11].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[37].innerText === nowPlaying && gridCircles[29].innerText ===
         nowPlaying && gridCircles[21].innerText === nowPlaying && gridCircles[13].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[37].innerText === nowPlaying && gridCircles[28].innerText ===
         nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[10].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[36].innerText === nowPlaying && gridCircles[27].innerText ===
         nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[9].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[35].innerText === nowPlaying && gridCircles[26].innerText ===
         nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[8].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[24].innerText === nowPlaying && gridCircles[16].innerText ===
         nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[0].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[24].innerText === nowPlaying && gridCircles[17].innerText ===
         nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[3].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[24].innerText === nowPlaying && gridCircles[25].innerText ===
         nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[27].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[25].innerText === nowPlaying && gridCircles[17].innerText ===
         nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[1].innerText ===
         nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[25].innerText === nowPlaying && gridCircles[18].innerText ===
         nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[4].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[25].innerText === nowPlaying && gridCircles[26].innerText ===
         nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[28].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[26].innerText === nowPlaying && gridCircles[18].innerText ===
         nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[2].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[26].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[5].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[26].innerText === nowPlaying && gridCircles[27].innerText ===
         nowPlaying && gridCircles[28].innerText === nowPlaying && gridCircles[29].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[27].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[3].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[27].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying && gridCircles[13].innerText === nowPlaying && gridCircles[6].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[27].innerText === nowPlaying && gridCircles[28].innerText ===
         nowPlaying && gridCircles[29].innerText === nowPlaying && gridCircles[30].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[28].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[4].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[30].innerText === nowPlaying && gridCircles[22].innerText ===
         nowPlaying && gridCircles[14].innerText === nowPlaying && gridCircles[16].innerText ===
         nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[30].innerText === nowPlaying && gridCircles[21].innerText ===
         nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[3].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[29].innerText === nowPlaying && gridCircles[21].innerText ===
         nowPlaying && gridCircles[13].innerText === nowPlaying && gridCircles[5].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[29].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[2].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[28].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[4].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[28].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[1].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[27].innerText === nowPlaying && gridCircles[18].innerText ===
         nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[0].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[16].innerText === nowPlaying && gridCircles[17].innerText ===
         nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[17].innerText === nowPlaying && gridCircles[18].innerText ===
         nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[2].innerText === nowPlaying && gridCircles[4].innerText ===
         nowPlaying && gridCircles[6].innerText === nowPlaying && gridCircles[3].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[18].innerText === nowPlaying && gridCircles[19].innerText ===
         nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[21].innerText ===
         nowPlaying ) {  
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[19].innerText === nowPlaying && gridCircles[20].innerText ===
         nowPlaying && gridCircles[21].innerText === nowPlaying && gridCircles[22].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[8].innerText === nowPlaying && gridCircles[9].innerText ===
         nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[11].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[9].innerText === nowPlaying && gridCircles[10].innerText ===
         nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[12].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[10].innerText === nowPlaying && gridCircles[11].innerText ===
         nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[13].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[11].innerText === nowPlaying && gridCircles[12].innerText ===
         nowPlaying && gridCircles[13].innerText === nowPlaying && gridCircles[14].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
         nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[1].innerText === nowPlaying && gridCircles[2].innerText ===
         nowPlaying && gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
         nowPlaying && gridCircles[4].innerText === nowPlaying && gridCircles[5].innerText ===
         nowPlaying ) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
         nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[6].innerText ===
         nowPlaying) {
-        finito = true
-        document.querySelector('.currentTurn').innerText = nowPlaying + ' is Champion'
+        finalizado = true
+        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
     } else {
-        let X = 0
-        let O = 0
+        let Red = 0
+        let Green = 0
         for (let i = 0; i < gridCircles.length; i++) {
-            if (gridCircles[i].innerText === 'X') {
-                X++
-           }else if (gridCircles[i].innerText === 'O') {
-               O++
+            if (gridCircles[i].innerText === 'Red') {
+                Red++
+           }else if (gridCircles[i].innerText === 'Green') {
+               Green++
            }
-        }   if (X + O === 9) {
-            document.querySelector('.currentTurn').innerText = 'Great minds tie alike!'
+        }   if (Red + Green === 42) {
+            document.querySelector('.playingNow').innerText = 'Dang. No reunion for the brothers. Sem reuniao de irmaos.'
         }
     }
+  }
 
-
-
+  const startOver = document.querySelector(".resetBtn").addEventListener("click", () => {
+    finito = false
+    const gridCircles = document.querySelectorAll(".circles");
+        for(let i = 0; i < gridCircles.length; i++) {
+            gridCircles[i].innerText = ""
     }
+    document.querySelector(".playingNow").innerText = "Into the array we go..."
+    nowPlaying = 'Red'; 
+});
+
+
+
+gridCircles.forEach(slot => {
+    const circZero = Array.from(gridCircles).indexOf(slot)
+    slot.addEventListener('click', () => {
+        if (nowPlaying === 'Red' &&
+            gridCircles[circZero].innerText!== 'Green' && !finalizado) {
+            console.log('reds turn')
+            gridCircles[circZero].style.background = 'red'
+            document.querySelector('.playingNow').innerText = 'Your go Green'
+            // irmCon()
+            nowPlaying = 'Green'
+        }  else if (nowPlaying === 'Green' &&
+            gridCircles[circZero].innerText!== 'Red' && !finalizado) {
+            console.log('greens turn')    
+            gridCircles[circZero].style.backgound = 'green'
+            document.querySelector('.playingNow').innerText = 'Your go Red'
+            // irmCon()
+            nowPlaying = 'Red'
+        } 
+    });
+});
+
+//document.slot.style.color
+
+
+}
+irmaosGo()
 
 
 
@@ -438,7 +474,3 @@ const irmCon = () => {
         
 //         })
 //     }
-
-
-}
-irmaosGo()

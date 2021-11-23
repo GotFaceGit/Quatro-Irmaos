@@ -391,15 +391,15 @@ const irmCon = () => {
         finalizado = true
        divPlayingNow.innerText = nowPlaying + ' takes the board!'
     } else {
-        let Red = 0
-        let Green = 0
+        let red = 0
+        let green = 0
         for (let i = 0; i < gridCircles.length; i++) {
             if (gridCircles[i].style.background === 'red') {
-                Red++
-           }else if (gridCircles[i].style.background === 'green') {
-               Green++
+                red++
+           } else if (gridCircles[i].style.background === 'green') {
+               green++
            }
-        }   if (red + green === 42) {
+        }  if (red + green === 42) {
             document.querySelector('.playingNow').innerText = 'Dang. No reunion for the brothers. Sem reuniao de irmaos.'
         }
     }
@@ -436,6 +436,7 @@ gridCircles.forEach(slot => {
         } 
     });
 });
+
 
 }
 irmaosGo()

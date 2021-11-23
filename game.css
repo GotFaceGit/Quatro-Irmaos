@@ -1,3 +1,4 @@
+
 .homeBody {
     background-color: rgb(235, 233, 205);
    padding: 50px
@@ -72,12 +73,13 @@ body {
     margin: auto;
 }
 
-/* .leftFoot {
-    width: 30px;
-    height: 150px;
-    border: 2px solid rgb(251, 40, 54);
-    margin-left: 5%;
-} */
+.spaceHold {
+    width: 50px;
+    font-family: comfort brush;
+    /* border: 2px solid rgb(251, 40, 54); */
+    
+    margin-left: 15%;
+}
 
 .playGrid {             /*This is where the circles are laid out */
     display: grid;
@@ -99,14 +101,14 @@ body {
     margin-bottom: 30px;
     border-radius: 100px;
     border: 2px solid blue;
-    margin-left: 6px;
+    margin-left: 15px;
 }
 
-.taken {
+/* .taken {
     width: 0;
     height: 0;
     margin: 30px;
-}
+} */
 
 /* .rightFoot {
     width: 30px;
@@ -147,6 +149,7 @@ body {
     font-size: 20px;
     width: 145px;
     border-radius: 10px;
+    margin: 15px;
 }
 .resetBtn:hover {
     background-color: rgb(208, 174, 242);

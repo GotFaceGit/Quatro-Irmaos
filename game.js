@@ -54,10 +54,10 @@ const theQuatro = [
     
 
 const irmCon = () => {
-    console.log(gridCircles[35])
-    console.log(gridCircles[28])
-    console.log(gridCircles[21])
-        console.log(gridCircles[14])
+    // console.log(gridCircles[35])
+    // console.log(gridCircles[28])
+    // console.log(gridCircles[21])
+    //     console.log(gridCircles[14])
     if (gridCircles[35].style.background === nowPlaying && gridCircles[28].style.background ===
         nowPlaying && gridCircles[21].style.background === nowPlaying && gridCircles[14].style.background ===
         nowPlaying)  {

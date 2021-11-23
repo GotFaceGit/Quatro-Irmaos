@@ -1,5 +1,5 @@
 # Quatro-Irmaos
-| Class project - Hybrid Connect four-like game.
+| Class project - Hybrid Connect four/Tic-Tac-Toe game.
 ***
 ![Image](https://res.cloudinary.com/devvy8/image/upload/v1637218106/samples/Four%20Brothers%20Game%20-%20Proj%201%20photo/Generic_Connect_four_mhkkiu.png)
 
@@ -20,7 +20,7 @@
 ##### * Note: if you are cloning into your terminal folder, you can get the link from the green button that says "code". Type git clone, paste the link and hit return.
 ***
 ### Description
-##### This is a hybrid grid game. It looks like connect four. It behaves like tic-tac-toe game.
+##### This is a hybrid game. It looks like Connect Four. It behaves like Tic-Tac-Toe. The difference is, the game relieves the players from the physical world limitations of having to build up to create a win. It allows the player to play anywhere. This creates a slightly different win strategy than what is needed for Connect Four or Tic-Tac-Toe.
 ***
 
 #### ***Technologies Used***

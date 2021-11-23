@@ -1,4 +1,5 @@
 // Connect to the Board
+//RESET POINT
 
 let nowPlaying = 'red'
 let finalizado = false

@@ -1,17 +1,5 @@
 // Connect to the Board
 
-// let gridColumns = document.querySelectorAll('.columns')
-// let phantoms = document.querySelectorAll('.taken')
-// let redSlugs = document. querySelector('.redCoins')
-// let greenSlugs = document.querySelector('.greenCoins')
-// let greenPile = document.querySelector('.greenCache')
-// let redPile = document.querySelector('.redCache')
-// Player toggler switcher
-// Who is playing. These don't play although they switch turns
-// let playerRed = document.querySelector('.redPlayer')
-// let playerGreen = document.querySelector('.grnPlayer')
-
-
 let nowPlaying = 'red'
 let finalizado = false
 let gridCircles = document.querySelectorAll('.circles')
@@ -55,10 +43,7 @@ const theQuatro = [
     
 
 const irmCon = () => {
-    // console.log(gridCircles[35])
-    // console.log(gridCircles[28])
-    // console.log(gridCircles[21])
-    //     console.log(gridCircles[14])
+    
     if (gridCircles[35].style.background === nowPlaying && gridCircles[28].style.background ===
         nowPlaying && gridCircles[21].style.background === nowPlaying && gridCircles[14].style.background ===
         nowPlaying)  {
@@ -414,7 +399,7 @@ const irmCon = () => {
            }else if (gridCircles[i].style.background === 'green') {
                Green++
            }
-        }   if (Red + Green === 42) {
+        }   if (red + green === 42) {
             document.querySelector('.playingNow').innerText = 'Dang. No reunion for the brothers. Sem reuniao de irmaos.'
         }
     }
@@ -451,9 +436,6 @@ gridCircles.forEach(slot => {
         } 
     });
 });
-
-//document.slot.style.color
-
 
 }
 irmaosGo()

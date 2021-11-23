@@ -1,5 +1,5 @@
 # Quatro-Irmaos
-| Class project - Generic Milton Bradley game, Connect Four
+| Class project - Hybrid Connect four-like game.
 ***
 ![Image](https://res.cloudinary.com/devvy8/image/upload/v1637218106/samples/Four%20Brothers%20Game%20-%20Proj%201%20photo/Generic_Connect_four_mhkkiu.png)
 
@@ -20,7 +20,7 @@
 ##### * Note: if you are cloning into your terminal folder, you can get the link from the green button that says "code". Type git clone, paste the link and hit return.
 ***
 ### Description
-##### This is a generic version of the Milton Bradley Connect Four game we all grew up playing.
+##### This is a hybrid grid game. It looks like connect four. It behaves like tic-tac-toe game.
 ***
 
 #### ***Technologies Used***
@@ -31,8 +31,7 @@
 2. [Trello](https://trello.com/b/ylIqFi9z/ga-game-project-1)
 ***
 ### ***The way to play***
-#### This is a two player game, each player having a set of different colored discs; similar to checkers.
-##### Much like tic tac toe but a tad bit more advanced.
+#### This is a two player game, each player having a set of 21 different colored tokens.
 ##### The goal is to create a family of four colors side by side vertical, horizontal, or diagonal.
 
 ***

@@ -4,139 +4,22 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="../game.css">
-           
-            <title>Quatro_Irmaos_Game</title>
+            <link rel="stylesheet" href="../game.css"> 
+            <title>Quatro_Irmaos</title>
         </head>
-            <body>
-                <header class='pgTitle'>QUATRO IRMAOS</header>
-                
-                    <div class='gridContainer'>
-                        <div class='playingNow'></div>
-                        <div class='leftFoot'>left foot</div>
-                        <div class='playGrid' id=''>
-                            <div class="columns col1"> <!--0,7,14 - +8th spot to right=diag-->
-                                <div class="circles" id="slot0"></div>
-                                <div class="circles" id="slot7"></div>
-                                <div class="circles" id="slot14"></div>
-                                <div class="circles" id="slot21"></div>
-                                <div class="circles" id="slot28"></div>
-                                <div class="circles" id="slot35"></div>
-                                
-                            </div>
-                            <div class="columns col2"> <!--1,8, & 15 - +8th = diag-->        
-                                <div class="circles" id="slot1"></div>
-                                <div class="circles" id="slot8"></div>
-                                <div class="circles" id="slot15"></div>
-                                <div class="circles" id="slot22"></div>
-                                <div class="circles" id="slot29"></div>
-                                <div class="circles" id="slot36"></div>
-                                
-                            </div>
-                            <div class="columns col3"> <!--2,9, & 16 - +8th =diag-->
-                                <div class="circles" id="slot2"></div>
-                                <div class="circles" id="slot9"></div>
-                                <div class="circles" id="slot16"></div>
-                                <div class="circles" id="slot23"></div>
-                                <div class="circles" id="slot30"></div>
-                                <div class="circles" id="slot37"></div>
-                                
-                            </div>
-                            <div class="columns col4"> <!--3,10, & 17 - +6 or +8 right = diag-->
-                                <div class="circles" id="slot3"></div>
-                                <div class="circles" id="slot10"></div>
-                                <div class="circles" id="slot17"></div>
-                                <div class="circles" id="slot24"></div>
-                                <div class="circles" id="slot31"></div>
-                                <div class="circles" id="slot38"></div>
-                                
-                            </div>
-                            <div class="columns col5"> <!--4,11, & 18 - +6 right = diag-->
-                                <div class="circles" id="slot4"></div>
-                                <div class="circles" id="slot11"></div>
-                                <div class="circles" id="slot18"></div>
-                                <div class="circles" id="slot25"></div>
-                                <div class="circles" id="slot32"></div>
-                                <div class="circles" id="slot39"></div>
-                                
-                            </div>
-                            <div class="columns col6"> <!--5,12, & 19 - +6 right = diag-->
-                                <div class="circles" id="slot5"></div>
-                                <div class="circles" id="slot12"></div>
-                                <div class="circles" id="slot19"></div>
-                                <div class="circles" id="slot26"></div>
-                                <div class="circles" id="slot33"></div>
-                                <div class="circles" id="slot40"></div>
-                                
-                            </div>
-                            <div class="columns col7"> <!--6,13, & 20 - +6 right = diag-->
-                                <div class="circles" id="slot6"></div>
-                                <div class="circles" id="slot13"></div>
-                                <div class="circles" id="slot20"></div>
-                                <div class="circles" id="slot27"></div>
-                                <div class="circles" id="slot34"></div>
-                                <div class="circles" id="slot41"></div>
-                                
-                            </div>
-                        </div>
 
-                        <div class='rightFoot'>right foot</div>
-                        <div class='playerDivReset'>
-                            <!-- <div class='redPlayer'>Red, Play</div>
-                            <div class='grnPlayer'>Green, Play</div> -->
-                            <button class='resetBtn'>Reset</button>
-                        </div>
+        <body class='homeBody'>
+        
+        <header class='homePgTitle'>QUATRO IRMAOS</header>
+        <h3 class='instructs'>This is a 2-player game. <br>Click a slot to fill it with a token brother.<br> Match four of the same color brothers in a row, in any direction, to win.</h3>
 
-                        <div class="greenCache">
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                            <div class="slugsGreen"></div>
-                        </div>
+        <h2 class="haveFun">Have fun!!</h2>
+        
+        <nav class="toGamePage">
+            <button onclick="location.href='game.html'" type="button" class="gamePlay">Quatro Irmaos
+            </button>
+        </nav>
 
-                        <div class="redCache">
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                            <div class="slugsRed"></div>
-                        </div>
-
-                    </div>
-                
-            </body>
-            <script src="../game.js"></script>
+            <script src="../game.js"></script>    
+        </body>
     </html>

@@ -1,24 +1,21 @@
 // Connect to the Board
 
 // let gridColumns = document.querySelectorAll('.columns')
-let gridCircles = document.querySelectorAll('.circles')
 // let phantoms = document.querySelectorAll('.taken')
-
-
 // let redSlugs = document. querySelector('.redCoins')
 // let greenSlugs = document.querySelector('.greenCoins')
 // let greenPile = document.querySelector('.greenCache')
 // let redPile = document.querySelector('.redCache')
-
 // Player toggler switcher
-let nowPlaying = 'Red'
-let finalizado = false
-
 // Who is playing. These don't play although they switch turns
 // let playerRed = document.querySelector('.redPlayer')
 // let playerGreen = document.querySelector('.grnPlayer')
 
-const startOver = document.querySelector('.resetBtn')
+
+let nowPlaying = 'red'
+let finalizado = false
+let gridCircles = document.querySelectorAll('.circles')
+let startOver = document.querySelector('.resetBtn')
 
 
 const irmaosGo = () => {
@@ -57,358 +54,358 @@ const theQuatro = [
     
 
 const irmCon = () => {
-    if (gridCircles[35].innerText === nowPlaying && gridCircles[28].innerText ===
-        nowPlaying && gridCircles[21].innerText === nowPlaying && gridCircles[14].innerText ===
+    if (gridCircles[35].style.background === nowPlaying && gridCircles[28].style.background ===
+        nowPlaying && gridCircles[21].style.background === nowPlaying && gridCircles[14].style.background ===
         nowPlaying)  {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[35].innerText === nowPlaying && gridCircles[29].innerText ===
-        nowPlaying && gridCircles[23].innerText === nowPlaying && gridCircles[17].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[35].style.background === nowPlaying && gridCircles[29].style.background ===
+        nowPlaying && gridCircles[23].style.background === nowPlaying && gridCircles[17].style.background ===
         nowPlaying ) {  
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[35].innerText === nowPlaying && gridCircles[36].innerText ===
-        nowPlaying && gridCircles[37].innerText === nowPlaying && gridCircles[38].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[35].style.background === nowPlaying && gridCircles[36].style.background ===
+        nowPlaying && gridCircles[37].style.background === nowPlaying && gridCircles[38].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[36].innerText === nowPlaying && gridCircles[29].innerText ===
-        nowPlaying && gridCircles[22].innerText === nowPlaying && gridCircles[15].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[36].style.background === nowPlaying && gridCircles[29].style.background ===
+        nowPlaying && gridCircles[22].style.background === nowPlaying && gridCircles[15].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[36].innerText === nowPlaying && gridCircles[30].innerText ===
-        nowPlaying && gridCircles[24].innerText === nowPlaying && gridCircles[18].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[36].style.background === nowPlaying && gridCircles[30].style.background ===
+        nowPlaying && gridCircles[24].style.background === nowPlaying && gridCircles[18].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[36].innerText === nowPlaying && gridCircles[37].innerText ===
-        nowPlaying && gridCircles[38].innerText === nowPlaying && gridCircles[39].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[36].style.background === nowPlaying && gridCircles[37].style.background ===
+        nowPlaying && gridCircles[38].style.background === nowPlaying && gridCircles[39].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[37].innerText === nowPlaying && gridCircles[30].innerText ===
-        nowPlaying && gridCircles[23].innerText === nowPlaying && gridCircles[16].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[37].style.background === nowPlaying && gridCircles[30].style.background ===
+        nowPlaying && gridCircles[23].style.background === nowPlaying && gridCircles[16].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[37].innerText === nowPlaying && gridCircles[31].innerText ===
-        nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[19].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[37].style.background === nowPlaying && gridCircles[31].style.background ===
+        nowPlaying && gridCircles[25].style.background === nowPlaying && gridCircles[19].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[37].innerText === nowPlaying && gridCircles[38].innerText ===
-        nowPlaying && gridCircles[39].innerText === nowPlaying && gridCircles[40].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[37].style.background === nowPlaying && gridCircles[38].style.background ===
+        nowPlaying && gridCircles[39].style.background === nowPlaying && gridCircles[40].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[38].innerText === nowPlaying && gridCircles[31].innerText ===
-        nowPlaying && gridCircles[24].innerText === nowPlaying && gridCircles[17].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[38].style.background === nowPlaying && gridCircles[31].style.background ===
+        nowPlaying && gridCircles[24].style.background === nowPlaying && gridCircles[17].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[38].innerText === nowPlaying && gridCircles[32].innerText ===
-        nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[20].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[38].style.background === nowPlaying && gridCircles[32].style.background ===
+        nowPlaying && gridCircles[26].style.background === nowPlaying && gridCircles[20].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[38].innerText === nowPlaying && gridCircles[39].innerText ===
-        nowPlaying && gridCircles[40].innerText === nowPlaying && gridCircles[41].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[38].style.background === nowPlaying && gridCircles[39].style.background ===
+        nowPlaying && gridCircles[40].style.background === nowPlaying && gridCircles[41].style.background ===
         nowPlaying ) {  
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[38].innerText === nowPlaying && gridCircles[30].innerText ===
-        nowPlaying && gridCircles[22].innerText === nowPlaying && gridCircles[14].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[38].style.background === nowPlaying && gridCircles[30].style.background ===
+        nowPlaying && gridCircles[22].style.background === nowPlaying && gridCircles[14].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[39].innerText === nowPlaying && gridCircles[32].innerText ===
-        nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[18].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[39].style.background === nowPlaying && gridCircles[32].style.background ===
+        nowPlaying && gridCircles[25].style.background === nowPlaying && gridCircles[18].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[39].innerText === nowPlaying && gridCircles[31].innerText ===
-        nowPlaying && gridCircles[23].innerText === nowPlaying && gridCircles[15].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[39].style.background === nowPlaying && gridCircles[31].style.background ===
+        nowPlaying && gridCircles[23].style.background === nowPlaying && gridCircles[15].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[40].innerText === nowPlaying && gridCircles[33].innerText ===
-        nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[19].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[40].style.background === nowPlaying && gridCircles[33].style.background ===
+        nowPlaying && gridCircles[26].style.background === nowPlaying && gridCircles[19].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[40].innerText === nowPlaying && gridCircles[32].innerText ===
-        nowPlaying && gridCircles[24].innerText === nowPlaying && gridCircles[16].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[40].style.background === nowPlaying && gridCircles[32].style.background ===
+        nowPlaying && gridCircles[24].style.background === nowPlaying && gridCircles[16].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[41].innerText === nowPlaying && gridCircles[34].innerText ===
-        nowPlaying && gridCircles[27].innerText === nowPlaying && gridCircles[20].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[41].style.background === nowPlaying && gridCircles[34].style.background ===
+        nowPlaying && gridCircles[27].style.background === nowPlaying && gridCircles[20].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[41].innerText === nowPlaying && gridCircles[33].innerText ===
-        nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[17].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[41].style.background === nowPlaying && gridCircles[33].style.background ===
+        nowPlaying && gridCircles[25].style.background === nowPlaying && gridCircles[17].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[28].innerText === nowPlaying && gridCircles[21].innerText ===
-        nowPlaying && gridCircles[14].innerText === nowPlaying && gridCircles[7].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[28].style.background === nowPlaying && gridCircles[21].style.background ===
+        nowPlaying && gridCircles[14].style.background === nowPlaying && gridCircles[7].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[28].innerText === nowPlaying && gridCircles[22].innerText ===
-        nowPlaying && gridCircles[16].innerText === nowPlaying && gridCircles[10].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[28].style.background === nowPlaying && gridCircles[22].style.background ===
+        nowPlaying && gridCircles[16].style.background === nowPlaying && gridCircles[10].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[28].innerText === nowPlaying && gridCircles[29].innerText ===
-        nowPlaying && gridCircles[30].innerText === nowPlaying && gridCircles[31].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[28].style.background === nowPlaying && gridCircles[29].style.background ===
+        nowPlaying && gridCircles[30].style.background === nowPlaying && gridCircles[31].style.background ===
         nowPlaying ) {  
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[29].innerText === nowPlaying && gridCircles[22].innerText ===
-        nowPlaying && gridCircles[15].innerText === nowPlaying && gridCircles[8].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[29].style.background === nowPlaying && gridCircles[22].style.background ===
+        nowPlaying && gridCircles[15].style.background === nowPlaying && gridCircles[8].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[29].innerText === nowPlaying && gridCircles[23].innerText ===
-        nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[11].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[29].style.background === nowPlaying && gridCircles[23].style.background ===
+        nowPlaying && gridCircles[17].style.background === nowPlaying && gridCircles[11].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[29].innerText === nowPlaying && gridCircles[30].innerText ===
-        nowPlaying && gridCircles[31].innerText === nowPlaying && gridCircles[32].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[29].style.background === nowPlaying && gridCircles[30].style.background ===
+        nowPlaying && gridCircles[31].style.background === nowPlaying && gridCircles[32].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[30].innerText === nowPlaying && gridCircles[23].innerText ===
-        nowPlaying && gridCircles[16].innerText === nowPlaying && gridCircles[9].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[30].style.background === nowPlaying && gridCircles[23].style.background ===
+        nowPlaying && gridCircles[16].style.background === nowPlaying && gridCircles[9].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[30].innerText === nowPlaying && gridCircles[24].innerText ===
-        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[12].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[30].style.background === nowPlaying && gridCircles[24].style.background ===
+        nowPlaying && gridCircles[18].style.background === nowPlaying && gridCircles[12].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[30].innerText === nowPlaying && gridCircles[31].innerText ===
-        nowPlaying && gridCircles[32].innerText === nowPlaying && gridCircles[33].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[30].style.background === nowPlaying && gridCircles[31].style.background ===
+        nowPlaying && gridCircles[32].style.background === nowPlaying && gridCircles[33].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[31].innerText === nowPlaying && gridCircles[24].innerText ===
-        nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[10].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[31].style.background === nowPlaying && gridCircles[24].style.background ===
+        nowPlaying && gridCircles[17].style.background === nowPlaying && gridCircles[10].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[31].innerText === nowPlaying && gridCircles[23].innerText ===
-        nowPlaying && gridCircles[15].innerText === nowPlaying && gridCircles[7].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[31].style.background === nowPlaying && gridCircles[23].style.background ===
+        nowPlaying && gridCircles[15].style.background === nowPlaying && gridCircles[7].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[31].innerText === nowPlaying && gridCircles[25].innerText ===
-        nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[13].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[31].style.background === nowPlaying && gridCircles[25].style.background ===
+        nowPlaying && gridCircles[19].style.background === nowPlaying && gridCircles[13].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[31].innerText === nowPlaying && gridCircles[32].innerText ===
-        nowPlaying && gridCircles[33].innerText === nowPlaying && gridCircles[34].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[31].style.background === nowPlaying && gridCircles[32].style.background ===
+        nowPlaying && gridCircles[33].style.background === nowPlaying && gridCircles[34].style.background ===
         nowPlaying ) {  
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[32].innerText === nowPlaying && gridCircles[25].innerText ===
-        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[11].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[32].style.background === nowPlaying && gridCircles[25].style.background ===
+        nowPlaying && gridCircles[18].style.background === nowPlaying && gridCircles[11].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[32].innerText === nowPlaying && gridCircles[24].innerText ===
-        nowPlaying && gridCircles[16].innerText === nowPlaying && gridCircles[8].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[32].style.background === nowPlaying && gridCircles[24].style.background ===
+        nowPlaying && gridCircles[16].style.background === nowPlaying && gridCircles[8].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[33].innerText === nowPlaying && gridCircles[26].innerText ===
-        nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[12].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[33].style.background === nowPlaying && gridCircles[26].style.background ===
+        nowPlaying && gridCircles[19].style.background === nowPlaying && gridCircles[12].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[33].innerText === nowPlaying && gridCircles[25].innerText ===
-        nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[9].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[33].style.background === nowPlaying && gridCircles[25].style.background ===
+        nowPlaying && gridCircles[17].style.background === nowPlaying && gridCircles[9].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[34].innerText === nowPlaying && gridCircles[27].innerText ===
-        nowPlaying && gridCircles[20].innerText === nowPlaying && gridCircles[13].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[34].style.background === nowPlaying && gridCircles[27].style.background ===
+        nowPlaying && gridCircles[20].style.background === nowPlaying && gridCircles[13].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[34].innerText === nowPlaying && gridCircles[26].innerText ===
-        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[10].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[34].style.background === nowPlaying && gridCircles[26].style.background ===
+        nowPlaying && gridCircles[18].style.background === nowPlaying && gridCircles[10].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[21].innerText === nowPlaying && gridCircles[14].innerText ===
-        nowPlaying && gridCircles[7].innerText === nowPlaying && gridCircles[0].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[21].style.background === nowPlaying && gridCircles[14].style.background ===
+        nowPlaying && gridCircles[7].style.background === nowPlaying && gridCircles[0].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[21].innerText === nowPlaying && gridCircles[15].innerText ===
-        nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[3].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[21].style.background === nowPlaying && gridCircles[15].style.background ===
+        nowPlaying && gridCircles[9].style.background === nowPlaying && gridCircles[3].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[21].innerText === nowPlaying && gridCircles[22].innerText ===
-        nowPlaying && gridCircles[23].innerText === nowPlaying && gridCircles[24].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[21].style.background === nowPlaying && gridCircles[22].style.background ===
+        nowPlaying && gridCircles[23].style.background === nowPlaying && gridCircles[24].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[22].innerText === nowPlaying && gridCircles[15].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[1].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[22].style.background === nowPlaying && gridCircles[15].style.background ===
+        nowPlaying && gridCircles[8].style.background === nowPlaying && gridCircles[1].style.background ===
         nowPlaying ) {  
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[22].innerText === nowPlaying && gridCircles[16].innerText ===
-        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[4].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[22].style.background === nowPlaying && gridCircles[16].style.background ===
+        nowPlaying && gridCircles[10].style.background === nowPlaying && gridCircles[4].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[22].innerText === nowPlaying && gridCircles[23].innerText ===
-        nowPlaying && gridCircles[24].innerText === nowPlaying && gridCircles[25].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[22].style.background === nowPlaying && gridCircles[23].style.background ===
+        nowPlaying && gridCircles[24].style.background === nowPlaying && gridCircles[25].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[23].innerText === nowPlaying && gridCircles[16].innerText ===
-        nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[2].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[23].style.background === nowPlaying && gridCircles[16].style.background ===
+        nowPlaying && gridCircles[9].style.background === nowPlaying && gridCircles[2].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[23].innerText === nowPlaying && gridCircles[17].innerText ===
-        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[5].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[23].style.background === nowPlaying && gridCircles[17].style.background ===
+        nowPlaying && gridCircles[11].style.background === nowPlaying && gridCircles[5].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[23].innerText === nowPlaying && gridCircles[24].innerText ===
-        nowPlaying && gridCircles[25].innerText === nowPlaying && gridCircles[26].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[23].style.background === nowPlaying && gridCircles[24].style.background ===
+        nowPlaying && gridCircles[25].style.background === nowPlaying && gridCircles[26].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[24].innerText === nowPlaying && gridCircles[17].innerText ===
-        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[3].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[24].style.background === nowPlaying && gridCircles[17].style.background ===
+        nowPlaying && gridCircles[10].style.background === nowPlaying && gridCircles[3].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[24].innerText === nowPlaying && gridCircles[18].innerText ===
-        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[6].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[24].style.background === nowPlaying && gridCircles[18].style.background ===
+        nowPlaying && gridCircles[12].style.background === nowPlaying && gridCircles[6].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[24].innerText === nowPlaying && gridCircles[25].innerText ===
-        nowPlaying && gridCircles[26].innerText === nowPlaying && gridCircles[27].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[24].style.background === nowPlaying && gridCircles[25].style.background ===
+        nowPlaying && gridCircles[26].style.background === nowPlaying && gridCircles[27].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[24].innerText === nowPlaying && gridCircles[16].innerText ===
-        nowPlaying && gridCircles[8].innerText === nowPlaying && gridCircles[0].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[24].style.background === nowPlaying && gridCircles[16].style.background ===
+        nowPlaying && gridCircles[8].style.background === nowPlaying && gridCircles[0].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[25].innerText === nowPlaying && gridCircles[18].innerText ===
-        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[4].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[25].style.background === nowPlaying && gridCircles[18].style.background ===
+        nowPlaying && gridCircles[11].style.background === nowPlaying && gridCircles[4].style.background ===
         nowPlaying ) {  
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[25].innerText === nowPlaying && gridCircles[17].innerText ===
-        nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[1].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[25].style.background === nowPlaying && gridCircles[17].style.background ===
+        nowPlaying && gridCircles[9].style.background === nowPlaying && gridCircles[1].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[26].innerText === nowPlaying && gridCircles[19].innerText ===
-        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[5].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[26].style.background === nowPlaying && gridCircles[19].style.background ===
+        nowPlaying && gridCircles[12].style.background === nowPlaying && gridCircles[5].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[26].innerText === nowPlaying && gridCircles[18].innerText ===
-        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[2].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[26].style.background === nowPlaying && gridCircles[18].style.background ===
+        nowPlaying && gridCircles[10].style.background === nowPlaying && gridCircles[2].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[27].innerText === nowPlaying && gridCircles[20].innerText ===
-        nowPlaying && gridCircles[13].innerText === nowPlaying && gridCircles[6].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[27].style.background === nowPlaying && gridCircles[20].style.background ===
+        nowPlaying && gridCircles[13].style.background === nowPlaying && gridCircles[6].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[27].innerText === nowPlaying && gridCircles[19].innerText ===
-        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[3].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[27].style.background === nowPlaying && gridCircles[19].style.background ===
+        nowPlaying && gridCircles[11].style.background === nowPlaying && gridCircles[3].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[14].innerText === nowPlaying && gridCircles[15].innerText ===
-        nowPlaying && gridCircles[16].innerText === nowPlaying && gridCircles[17].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[14].style.background === nowPlaying && gridCircles[15].style.background ===
+        nowPlaying && gridCircles[16].style.background === nowPlaying && gridCircles[17].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[15].innerText === nowPlaying && gridCircles[16].innerText ===
-        nowPlaying && gridCircles[17].innerText === nowPlaying && gridCircles[18].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[15].style.background === nowPlaying && gridCircles[16].style.background ===
+        nowPlaying && gridCircles[17].style.background === nowPlaying && gridCircles[18].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[16].innerText === nowPlaying && gridCircles[17].innerText ===
-        nowPlaying && gridCircles[18].innerText === nowPlaying && gridCircles[19].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[16].style.background === nowPlaying && gridCircles[17].style.background ===
+        nowPlaying && gridCircles[18].style.background === nowPlaying && gridCircles[19].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[17].innerText === nowPlaying && gridCircles[18].innerText ===
-        nowPlaying && gridCircles[19].innerText === nowPlaying && gridCircles[20].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[17].style.background === nowPlaying && gridCircles[18].style.background ===
+        nowPlaying && gridCircles[19].style.background === nowPlaying && gridCircles[20].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[7].innerText === nowPlaying && gridCircles[8].innerText ===
-        nowPlaying && gridCircles[9].innerText === nowPlaying && gridCircles[10].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[7].style.background === nowPlaying && gridCircles[8].style.background ===
+        nowPlaying && gridCircles[9].style.background === nowPlaying && gridCircles[10].style.background ===
         nowPlaying ) {  
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[8].innerText === nowPlaying && gridCircles[9].innerText ===
-        nowPlaying && gridCircles[10].innerText === nowPlaying && gridCircles[11].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[8].style.background === nowPlaying && gridCircles[9].style.background ===
+        nowPlaying && gridCircles[10].style.background === nowPlaying && gridCircles[11].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[9].innerText === nowPlaying && gridCircles[10].innerText ===
-        nowPlaying && gridCircles[11].innerText === nowPlaying && gridCircles[12].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[9].style.background === nowPlaying && gridCircles[10].style.background ===
+        nowPlaying && gridCircles[11].style.background === nowPlaying && gridCircles[12].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[10].innerText === nowPlaying && gridCircles[11].innerText ===
-        nowPlaying && gridCircles[12].innerText === nowPlaying && gridCircles[13].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[10].style.background === nowPlaying && gridCircles[11].style.background ===
+        nowPlaying && gridCircles[12].style.background === nowPlaying && gridCircles[13].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[0].innerText === nowPlaying && gridCircles[1].innerText ===
-        nowPlaying && gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[0].style.background === nowPlaying && gridCircles[1].style.background ===
+        nowPlaying && gridCircles[2].style.background === nowPlaying && gridCircles[3].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[1].innerText === nowPlaying && gridCircles[2].innerText ===
-        nowPlaying && gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[1].style.background === nowPlaying && gridCircles[2].style.background ===
+        nowPlaying && gridCircles[3].style.background === nowPlaying && gridCircles[4].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[2].innerText === nowPlaying && gridCircles[3].innerText ===
-        nowPlaying && gridCircles[4].innerText === nowPlaying && gridCircles[5].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[2].style.background === nowPlaying && gridCircles[3].style.background ===
+        nowPlaying && gridCircles[4].style.background === nowPlaying && gridCircles[5].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
-    } else if (gridCircles[3].innerText === nowPlaying && gridCircles[4].innerText ===
-        nowPlaying && gridCircles[5].innerText === nowPlaying && gridCircles[6].innerText ===
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
+    } else if (gridCircles[3].style.background === nowPlaying && gridCircles[4].style.background ===
+        nowPlaying && gridCircles[5].style.background === nowPlaying && gridCircles[6].style.background ===
         nowPlaying ) {
         finalizado = true
-        document.querySelector('.playingNow').innerText = nowPlaying + ' takes the board!'
+        document.querySelector('.playingNow').style.background = nowPlaying + ' takes the board!'
     } else {
         let Red = 0
         let Green = 0
         for (let i = 0; i < gridCircles.length; i++) {
-            if (gridCircles[i].innerText === 'Red') {
+            if (gridCircles[i].style.background === 'red') {
                 Red++
-           }else if (gridCircles[i].innerText === 'Green') {
+           }else if (gridCircles[i].style.background === 'green') {
                Green++
            }
         }   if (Red + Green === 42) {
@@ -421,7 +418,7 @@ const irmCon = () => {
     finalizado = false
     const gridCircles = document.querySelectorAll(".circles");
         for(let i = 0; i < gridCircles.length; i++) {
-            gridCircles[i].innerText = ""
+            gridCircles[i].style.background = ""
     }
     document.querySelector(".playingNow").innerText = "Into the array we go..."
     nowPlaying = 'Red'; 
@@ -432,20 +429,20 @@ const irmCon = () => {
 gridCircles.forEach(slot => {
     const circZero = Array.from(gridCircles).indexOf(slot)
     slot.addEventListener('click', () => {
-        if (nowPlaying === 'Red' &&
-            gridCircles[circZero].innerText!== 'Green' && !finalizado) {
-            console.log('reds turn')
+        if (nowPlaying === 'red' &&
+            gridCircles[circZero].style.background!== 'green' && !finalizado) {
+            // console.log('reds turn')
             gridCircles[circZero].style.background = 'red'
             document.querySelector('.playingNow').innerText = 'Your go Green'
             irmCon()
-            nowPlaying = 'Green'
-        }  else if (nowPlaying === 'Green' &&
-            gridCircles[circZero].innerText!== 'Red' && !finalizado) {
-            console.log('greens turn')    
+            nowPlaying = 'green'
+        }  else if (nowPlaying === 'green' &&
+            gridCircles[circZero].style.background!== 'red' && !finalizado) {
+            // console.log('greens turn')    
             gridCircles[circZero].style.background = 'green'
             document.querySelector('.playingNow').innerText = 'Your go Red'
             irmCon()
-            nowPlaying = 'Red'
+            nowPlaying = 'red'
         } 
     });
 });
